@@ -1,0 +1,4 @@
+name:Nikita
+age:32
+number of pets:0
+desired salary:1000 USD
