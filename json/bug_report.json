@@ -1,1 +1,23 @@
+{
+"Bug name":"Application crashes upon clicking the SAVE button while creating a new user"
+"Reported By":"Your Name"
+"Reported On":"Date"
+"Status":"New/Open/Active (Depends on the Tool you are using)"
+"Build Number":"Version Number 5.0.1"
+"Environmen":"Windows 10"
+"Severity":"HIGH (High/Medium/Low) or 1"
+"Priority":"HIGH (High/Medium/Low) or 1"
+"Assigned to":"Developer-X"
 
+  "Steps to reproduce": {
+                    "1":"Login into the Application"
+                    "2":"Navigate to the Users Menu -> New User"
+                    "3":"Filled out all the user information fields"
+                    "4":"Clicked on the ‘Save’ button"
+                    "5":"Seen an error page “ORA1090 Exception: Insert values Error…”"
+                    },
+  
+"Expected Result":"On clicking the SAVE button, you should be prompted to a successful message “New User has been created successfully”."
+"Actual Result":"Seen an error page “ORA1090 Exception: Insert values Error"
+"Visual Proof":"screenshots, videos, text"
+}
