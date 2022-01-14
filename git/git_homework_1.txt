@@ -8,10 +8,10 @@ JSON
  10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
 	vim new.json
 {
-	"name":"Nikita"
-	"age":"32"
-	"number of pets":"0"
-	"desired salary":"1000 USD"
+	"name": "Nikita",
+	"age": "32",
+	"number_of_pets": "0",
+	"desired_salary": "1000_USD"
 }
 
  11. Отправить изменения на внешний репозиторий / git commit -m "edit info new.json" / git push
@@ -19,10 +19,10 @@ JSON
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
  vim preferences.json
  {
-        "favorite movie":"don't look up"
-        "favorite TV-show":"breaking bad"
-        "favorite food":"melon"
-        "favorite season":"autumn"
+        "favorite movie":"don't look up",
+        "favorite TV-show":"breaking bad",
+        "favorite food":"melon",
+        "favorite season":"autumn",
         "country i want to visit":"japan"
 }
 
@@ -43,17 +43,24 @@ JSON
  26. Отправить файл на внешний GitHub репозиторий./ git push
  27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML. 
  vim new.xml
- <?xml version="1.0" encoding="UTF-8"?>
-<about>
+ <about>
 	<name>Nikita</name>
-	<age>32</aage>
+	<age>32</age>
 	<number_of_pets>0</number_of_pets>
-	<desired_salary>1000_USD<desired_salary>
+	<desired_salary>1000_USD</desired_salary>
 </about>
 
  28. Отправить изменения на внешний репозиторий. /git commit -a -m "Add"
- 29. Создать файл preferences.xmlcd
+ 29. Создать файл preferences.xml
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+ vim preferences.xml
+ <about>
+	<favorite_movie>don't_look_up</favorite_movie>
+	<favorite_TV_show>breaking_bad</favorite_TV_show>
+	<favorite_food>melon</favorite_food>
+	<favorite_season>autumn</favorite_season>
+	<country_i_want_to_visit>japan</country_i_want_to_visit>
+</about>
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
  32. Сделать коммит в одну строку. /git add .|git commit -m ""
  33. Отправить сразу 2 файла на внешний репозиторий. /git push
@@ -71,10 +78,19 @@ JSON
  6. Отправить файл на внешний GitHub репозиторий. /git push
  7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
 vim new.txt
+name:Nikita
+age:32
+number of pets:0
+desired salary:1000 USD
  8. Отправить изменения на внешний репозиторий. / git push
  9. Создать файл preferences.txt /touch preferences.txt
  10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
  vim preferences.txt
+favorite movie:don't look up
+favorite TV-show:breaking bad
+favorite food:melon
+favorite season:autumn
+country i want to visit:japan
  11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
  touch skills.txt
  12. Сделать коммит в одну строку. /git add .|git commit -m""
