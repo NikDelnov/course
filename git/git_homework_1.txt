@@ -82,7 +82,7 @@ JSON
 	vim new.xml
 	insert
 	
- <about>
+<about>
 	<name>Nikita</name>
 	<age>32</age>
 	<number_of_pets>0</number_of_pets>
@@ -116,11 +116,36 @@ JSON
  33. Отправить сразу 2 файла на внешний репозиторий. /git push
  34. На веб интерфейсе создать файл bug_report.xml.
  
+ <bugreport>
+  <Bug_name>Application crashes upon clicking the SAVE button while creating a new user</Bug_name>
+  <Reported_By>Your_Name</Reported_By>
+  <Reported_On>Date</Reported_On>
+  <Status>New/Open/Active (Depends on the Tool you are using)</Status>
+  <Build_Number>Version Number 5.0.1</Build_Number>
+  <Environmen>Windows 10</Environmen>
+  <Severity>HIGH (High/Medium/Low) or 1</Severity>
+  <Priority>HIGH (High/Medium/Low) or 1</Priority>
+  <Assigned_to>Developer-X</Assigned_to>
+
+  <Steps_to_reproduce>
+<a>Login into the Application</a>
+<b>Navigate to the Users Menu -> New User</b>
+<c>Filled out all the user information fields</c>
+<d>Clicked on the ‘Save’ button</d>
+<f>Seen an error page “ORA1090 Exception: Insert values Error…”</f>
+  </Steps_to_reproduce>
+                    
+  
+ <Expected_Result>On clicking the SAVE button, you should be prompted to a successful message “New User has been created successfully”</Expected_Result>
+ <Actual_Result>Seen an error page “ORA1090 Exception: Insert values Error</Actual_Result>
+    <Visual_Proof>screenshots, videos, text</Visual_Proof>
+ </bugreport>
  
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  38. Синхронизировать внешний и локальный репозиторий XML /git pull
+ 
  TXT
  1. Создать внешний репозиторий c названием TXT.
  2. Клонировать репозиторий TXT на локальный компьютер /git clone
@@ -129,22 +154,38 @@ JSON
  5. Закоммитить файл. /git commit -m ""
  6. Отправить файл на внешний GitHub репозиторий. /git push
  7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
-vim new.txt
+	
+	vim new.txt
+	insert
+	
 name:Nikita
 age:32
 number of pets:0
 desired salary:1000 USD
+
+	esc
+	:wq
+	
  8. Отправить изменения на внешний репозиторий. / git push
  9. Создать файл preferences.txt /touch preferences.txt
  10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
- vim preferences.txt
+ 
+	vim preferences.txt
+	insert
+	
 favorite movie:don't look up
 favorite TV-show:breaking bad
 favorite food:melon
 favorite season:autumn
 country i want to visit:japan
+	
+	esc
+	:wq
+	
  11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
- touch skills.txt
+	touch skills.txt
+	vim skills.txt
+	
  12. Сделать коммит в одну строку. /git add .|git commit -m""
  13. Отправить сразу 2 файла на внешний репозиторий. /git push
  14. На веб интерфейсе создать файл bug_report.txt.
