@@ -6,18 +6,26 @@ JSON
  8. Закоммитить файл./ git commit -m "add new dir & new file new.json"
  9. Отправить файл на внешний GitHub репозиторий. /git push
  10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+	
 	vim new.json
+	insert
+	
 {
 	"name": "Nikita",
 	"age": "32",
 	"number_of_pets": "0",
 	"desired_salary": "1000_USD"
 }
-
+	
+	esc
+	:wq
+	
  11. Отправить изменения на внешний репозиторий / git commit -m "edit info new.json" / git push
  12. Создать файл preferences.json / touch preferences.json
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
- vim preferences.json
+	vim preferences.json
+	insert
+	
  {
         "favorite movie":"don't look up",
         "favorite TV-show":"breaking bad",
@@ -26,11 +34,40 @@ JSON
         "country i want to visit":"japan"
 }
 
+	esc
+	:wq
+
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
  15. Отправить сразу 2 файла на внешний репозиторий.
  16. На веб интерфейсе создать файл bug_report.json
+ 
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+
+ {
+	"Bug name": "Application crashes upon clicking the SAVE button while creating a new user",
+	"Reported By": "Your Name",
+	"Reported On": "Date",
+	"Status": "New/Open/Active (Depends on the Tool you are using)",
+	"Build Number": "Version Number 5.0.1",
+	"Environmen": "Windows 10",
+	"Severity": "HIGH (High/Medium/Low) or 1",
+	"Priority": "HIGH (High/Medium/Low) or 1",
+	"Assigned to": "Developer-X",
+
+	"Steps to reproduce": {
+		"1": "Login into the Application",
+		"2": "Navigate to the Users Menu -> New User",
+		"3": "Filled out all the user information fields",
+		"4": "Clicked on the ‘Save’ button",
+		"5": "Seen an error page “ORA1090 Exception: Insert values Error…”"
+	},
+
+	"Expected Result": "On clicking the SAVE button, you should be prompted to a successful message “New User has been created successfully”.",
+	"Actual Result": "Seen an error page “ORA1090 Exception: Insert values Error",
+	"Visual Proof": "screenshots, videos, text"
+}
+
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  20. Синхронизировать внешний и локальный репозиторий JSON/ git pull
  
@@ -42,7 +79,9 @@ JSON
  25. Закоммитить файл. /git commit -m "add new.xml"
  26. Отправить файл на внешний GitHub репозиторий./ git push
  27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML. 
- vim new.xml
+	vim new.xml
+	insert
+	
  <about>
 	<name>Nikita</name>
 	<age>32</age>
@@ -50,10 +89,16 @@ JSON
 	<desired_salary>1000_USD</desired_salary>
 </about>
 
+	esc
+	:wq
+	
  28. Отправить изменения на внешний репозиторий. /git commit -a -m "Add"
  29. Создать файл preferences.xml
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
- vim preferences.xml
+ 
+	vim preferences.xml
+	insert
+	
  <about>
 	<favorite_movie>don't_look_up</favorite_movie>
 	<favorite_TV_show>breaking_bad</favorite_TV_show>
@@ -61,10 +106,17 @@ JSON
 	<favorite_season>autumn</favorite_season>
 	<country_i_want_to_visit>japan</country_i_want_to_visit>
 </about>
+
+	esc
+	:wq
+	
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+ 
  32. Сделать коммит в одну строку. /git add .|git commit -m ""
  33. Отправить сразу 2 файла на внешний репозиторий. /git push
  34. На веб интерфейсе создать файл bug_report.xml.
+ 
+ 
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
