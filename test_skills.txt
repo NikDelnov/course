@@ -1,4 +1,4 @@
-skills:
+skills that i will learn on this course:
 	software testing theory
 	client-server architecture
 	HTTP Server Request Methods
