@@ -11,12 +11,12 @@
 	"Removing and reading logs from an external server",
 	"Sniffing http web traffic through Charles and Fiddler",
 	"Dev Tools of web browsers Google Chrome, FireFox",
-	"VPN. How it works, why you need it, how to use it, tool options",
+	"VPN (How it works, why you need it, how to use it, tool options")
 	"Mobile testing",
 	"Feature of iOS, Android, guidelines",
 	"Build iOS applications on Xcode",
 	"Build Android applications on Android Studio",
-	"ADB management of android devices",
+	"ADB (management of android devices",)
 	"Setting up proxy and vpn on iOS and Android",
 	"Interception (sniffing) of mobile traffic through Charles and Fiddler on iOS and Android",
 	"Command line (terminal) Linux copy, create, view, move files on servers without a graphical interface",
@@ -27,6 +27,6 @@
 	"Non-relational database Redis installation, configuration and use",
 	"Load testing in Jmeter",
 	"Scrum development methodology",
-	"Python. Learning the basics. Building a client-server application"
+	"Python (Learning the basics. Building a client-server application")
 	]
 }
