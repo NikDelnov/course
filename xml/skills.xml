@@ -1,30 +1,31 @@
 <about>
-	<skills that i will learn on this course:>
-	</software testing theory>
-	</client-server architecture>
-	</HTTP Server Request Methods>
-	</HTTP server Response codes>
-	</Structures of HTTP requests and responses>
-	</What is JSON, XML. Their structure>
-	</API testing via Postman JS, API autotests>
-	</Removing and reading logs from an external server>
-	</Sniffing http web traffic through Charles and Fiddler>
-	</Dev Tools of web browsers Google Chrome, FireFox>
-	</VPN. How it works, why you need it, how to use it, tool options>
-	</Mobile testing>
-	</Feature of iOS, Android, guidelines>
-	</Build iOS applications on Xcode>
-	</Build Android applications on Android Studio>
-	</ADB management of android devices>
-	</Setting up proxy and vpn on iOS and Android>
-	</Interception (sniffing) of mobile traffic through Charles and Fiddler on iOS and Android>
-	</Command line (terminal) Linux copy, create, view, move files on servers without a graphical interface>
-	</Basics of bash scripting, automation of routine tasks on the server>
-	</Access to remote servers>
-	</Basics of SQL Create, Delete, Drop, Insert Into, Select, From, Where, Join>
-	</Postgres database installation, configuration and use>
-	</Non-relational database Redis installation, configuration and use>
-	</Load testing in Jmeter>
-	</Scrum development methodology>
-	</Python. Learning the basics. Building a client-server application>
-<skills that i will learn on this course:/>
+	<skillsgroup>
+	<skills>software testing theory</skills>
+	<skills>client-server architecture</skills>
+	<skills>HTTP Server Request Methods</skills>
+	<skills>HTTP server Response codes</skills>
+	<skills>Structures of HTTP requests and responses</skills>
+	<skills>What is JSON, XML. Their structure</skills>
+	<skills>API testing via Postman (JS, API autotests)</skills>
+	<skills>Removing and reading logs from an external server</skills>
+	<skills>Sniffing http web traffic through Charles and Fiddler</skills>
+	<skills>Dev Tools of web browsers Google Chrome, FireFox</skills>
+	<skills>VPN (How it works, why you need it, how to use it, tool options)</skills>
+	<skills>Mobile testing</skills>
+	<skills>Feature of iOS, Android, guidelines</skills>
+	<skills>Build iOS applications on Xcode</skills>
+	<skills>Build Android applications on Android Studio</skills>
+	<skills>ADB (management of android devices)</skills>
+	<skills>Setting up proxy and vpn on iOS and Android</skills>
+	<skills>Interception (sniffing) of mobile traffic through Charles and Fiddler on iOS and Android</skills>
+	<skills>Command line (terminal) Linux copy, create, view, move files on servers without a graphical interface</skills>
+	<skills>Basics of bash scripting, automation of routine tasks on the server</skills>
+	<skills>Access to remote servers</skills>
+	<skills>Basics of SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)</skills>
+	<skills>Postgres database installation, configuration and use</skills>
+	<skills>Non-relational database Redis installation, configuration and use</skills>
+	<skills>Load testing in Jmeter</skills>
+	<skills>Scrum development methodology</skills>
+	<skills>Python (Learning the basics. Building a client-server application)</skills>
+	</skillsgroup>
+</about>
